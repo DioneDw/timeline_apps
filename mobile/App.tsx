@@ -1,12 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar'
+import { Text, View } from 'react-native'
 
 export default function App() {
   return (
-    <View className='bg-zinc-950 flex-1 items-center justify-center'>
-      <Text className='text-gray-50 font-bold text-5xl'>Project Dione</Text>
-      <StatusBar style="light" translucent/>
+    <View className="flex-1 items-center justify-center bg-zinc-950">
+      <Text className="text-5xl font-bold text-gray-50">Project Dione</Text>
+      <StatusBar style="light" translucent />
     </View>
-  );
+  )
 }
-
